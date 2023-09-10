@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="copyright_message">Made with \u2665 by upscapesoft</string>
+
+    <string name="about">के बारे में</string>
+    <string name="about_us">हमारे बारे में</string>
+    <string name="company_title">कंपनी</string>
+    <string name="email_title">ईमेल</string>
+    <string name="version_title">संस्करण</string>
+    <string name="contact">संपर्क करना</string>
+
+    <string name="share_via">के माध्यम से बाँटे…</string>
+    <string name="premium_feature_message">बिना किसी विज्ञापन के असीमित एक्सेस</string>
+
+    <string name="photos">तस्वीरें</string>
+    <string name="videos">वीडियो</string>
+
+    <string name="share">शेयर करना</string>
+    <string name="repost">पोस्ट</string>
+    <string name="saved_success_message">स्थिति सफलतापूर्वक सहेजी गई</string>
+    <string name="confirm_message">हटाने की पुष्टि करें....</string>
+    <string name="del_status_message">क्या आप सुनिश्चित हैं, आप इस स्थिति को हटाना चाहते हैं?</string>
+    <string name="status_not_available">कोई स्थिति नहीं</string>
+    <string name="select_all">सभी का चयन करे</string>
+    <string name="save">बचाना</string>
+    <string name="delete">मिटाना</string>
+    <string name="language">भाषा</string>
+    <string name="premium">बीमा किस्त</string>
+    <string name="remove_ads">विज्ञापन हटाएँ</string>
+    <string name="send">भेजना</string>
+    <string name="how_to_use">कैसे इस्तेमाल करे</string>
+    <string name="saved_status">सहेजी गई स्थिति</string>
+    <string name="navigation_drawer_open">नेविगेशन दराज खोलें</string>
+    <string name="navigation_drawer_close">नेविगेशन दराज बंद करें</string>
+
+    <string name="direct_chat">डायरेक्ट चैट</string>
+    <string name="mobile_number">मोबाइल नंबर</string>
+    <string name="enter_message">संदेश दर्ज करें</string>
+    <string name="direct_chat_instructions"><b>हाउ तो?</b>\n 1. देश कोड चुनें\n 2. मोबाइल नंबर दर्ज करें\n 3. संदेश दर्ज करें\n 4. भेजें बटन पर क्लिक करें</string>
+    <string name="wa_business">डब्ल्यूए व्यापार</string>
+
+    <string name="saved_s">सफलतापूर्वक बचाया!</string>
+    <string name="save_s_long">/Pictures निर्देशिका में सहेजा गया।</string>
+    <string name="error">गलती</string>
+    <string name="error_long">सहेजते समय एक त्रुटि हुई, पुन: प्रयास करें!</string>
+    <string name="error_long_delete">हटाते समय एक त्रुटि हुई, पुन: प्रयास करें!</string>
+    <string name="deleted_s">सफलतापूर्वक मिटाया गया!</string>
+    <string name="delete_s_long">/चित्र निर्देशिका से हटाया गया</string>
+
+    <string name="toast_no_permissions">यह ऐप स्टोरेज अनुमति के बिना काम नहीं कर सकता!</string>
+    <string name="storage_access_required">भंडारण पहुंच की आवश्यकता है!</string>
+    <string name="allow">अनुमति देना</string>
+    <string name="cancel">रद्द करना</string>
+    <string name="alert_long">इस ऐप का उपयोग करने के लिए हमें स्टेटस पोस्ट एक्सेस करने के लिए आपसे स्टोरेज एक्सेस अनुमतियां प्राप्त करने की आवश्यकता है।\nसभी फाइलों को स्थानीय रूप से संग्रहीत किया जाएगा और किसी और के साथ अपलोड या साझा नहीं किया जाएगा।</string>
+
+    <string name="step_1">चरण 1</string>
+    <string name="first_step">Whatsapp या WA Business बटन खोलने के लिए क्लिक करें।</string>
+    <string name="step_2">चरण 2</string>
+    <string name="second_step">सबसे पहले आपको Whatsapp या WA Business से Status देखना होगा।</string>
+    <string name="step_3">चरण 3</string>
+    <string name="third_step">व्हाट्सएप या डब्ल्यूए बिजनेस में स्टेटस देखने के बाद इस एप्लिकेशन को खोलें। इस ऐप में आपका देखा हुआ स्टेटस यहां होगा और यहां से आप डाउनलोड और शेयर कर सकते हैं।</string>
+
+</resources>

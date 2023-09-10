@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name" translatable="false">Whats Saver</string>
+
+    <!--AdMob Id-->
+    <string name="admob_app_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="admob_banner_ad_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="admob_interstitial_ad_id" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="admob_open_ad_id" translatable="false">ca-app-pub-3940256099942544/3419835294</string>
+
+    <string name="company_name" translatable="false">upscapesoft</string>
+    <string name="skype_id" translatable="false">live:.cid.fad8cf9c0aa84d05</string>
+    <string name="right" translatable="false">\u00a9 2022 upscapesoft</string>
+    <string name="company_email" translatable="false">dev.upscapesoft@gmail.com</string>
+    <string name="version" translatable="false">0.0.0</string>
+    <string name="copyright_message">Made with \u2665 by upscapesoft</string>
+
+    <string name="about">About</string>
+    <string name="about_us">About Us</string>
+    <string name="company_title">Company</string>
+    <string name="email_title">E-mail</string>
+    <string name="version_title">Version</string>
+    <string name="contact">Contact</string>
+
+    <string name="share_via">Share via…</string>
+    <string name="premium_feature_message">Unlimited Access with No ads</string>
+
+    <string name="photos">Photos</string>
+    <string name="videos">Videos</string>
+
+    <string name="whatsapp" translatable="false">WhatsApp</string>
+    <string name="whatsapp_business" translatable="false">WhatsApp Business</string>
+    <string name="wa_business">WA Business</string>
+
+    <string name="english_lang" translatable="false">English</string>
+    <string name="spanish_lang" translatable="false">Española</string>
+    <string name="french_lang" translatable="false">Français</string>
+    <string name="german_lang" translatable="false">Deutsch</string>
+    <string name="hindi_lang" translatable="false">हिंदी</string>
+    <string name="chinese_lang" translatable="false">中国人</string>
+
+    <string name="share">Share</string>
+    <string name="repost">Repost</string>
+    <string name="saved_success_message">Status saved successfully</string>
+    <string name="confirm_message">Confirm Delete....</string>
+    <string name="del_status_message">Are you sure, You Want To Delete This Status?</string>
+    <string name="status_not_available">No status</string>
+    <string name="select_all">Select all</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="language">Language</string>
+    <string name="premium">Premium</string>
+    <string name="remove_ads">Remove ADS</string>
+    <string name="send">Send</string>
+    <string name="how_to_use">How To Use</string>
+    <string name="saved_status">Saved Status</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="direct_chat">Direct Chat</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="enter_message">Enter Message</string>
+    <string name="direct_chat_instructions"><b>How to?</b>\n 1. Select the country code\n 2. Enter the mobile number\n 3. Enter the message\n 4. Click on the send button</string>
+
+    <string name="saved_s">Saved successfully!</string>
+    <string name="save_s_long">Saved in /Pictures directory.</string>
+    <string name="error">Error</string>
+    <string name="error_long">An Error occurred while saving, try again!</string>
+    <string name="error_long_delete">An Error occurred while deleting, try again!</string>
+    <string name="deleted_s">Deleted successfully!</string>
+    <string name="delete_s_long">Deleted from /Pictures directory</string>
+
+    <string name="toast_no_permissions">This app can\'t work without storage permissions!</string>
+    <string name="storage_access_required">Storage access required!</string>
+    <string name="allow">Allow</string>
+    <string name="cancel">Cancel</string>
+    <string name="alert_long">In order to use this app we need to get storage access permissions from you to access status posts.\nAll files will be stored local and will NOT be uploaded or shared with anyone else.</string>
+
+    <string name="step_1">Step 1</string>
+    <string name="first_step">Click to open Whatsapp or WA Business button.</string>
+    <string name="step_2">Step 2</string>
+    <string name="second_step">First you have to see Status from Whatsapp or WA Business.</string>
+    <string name="step_3">Step 3</string>
+    <string name="third_step">Once you have seen the status in Whatsapp or WA Business, open this application. Your seen status will be here in this app and from here you can Download and Share.</string>
+
+
+</resources>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical"
+                    android:padding="5sp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp">
+
+                        <com.rilixtech.widget.countrycodepicker.CountryCodePicker
+                            android:id="@+id/ccp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="5dp"
+                            android:layout_weight="5.5"
+                            android:background="@drawable/etborder"
+                            android:ems="10"
+                            android:padding="15dp"
+                            android:textColor="@color/text_color"
+                            android:textColorHint="@color/grey"
+                            android:textSize="13sp"
+                            app:ccp_defaultNameCode="TZ"
+                            app:ccp_textColor="@color/text_color"
+                            app:ccp_textSize="16sp" />
+
+                        <EditText
+                            android:id="@+id/etphonenumber"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:layout_weight="4.5"
+                            android:background="@drawable/etborder"
+                            android:drawableStart="@drawable/ic_mobile"
+                            android:drawablePadding="10dp"
+                            android:drawableTint="@color/tint_color"
+                            android:hint="@string/mobile_number"
+                            android:inputType="number"
+                            android:padding="15dp"
+                            android:singleLine="true"
+                            android:textColor="@color/text_color"
+                            android:textColorHint="@color/grey"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+
+                    <EditText
+                        android:id="@+id/edt_message"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/etborder"
+                        android:gravity="top|start|center_vertical|center_horizontal|center|start"
+                        android:hint="@string/enter_message"
+                        android:padding="10dp"
+                        android:textColor="@color/text_color"
+                        android:textColorHint="@color/grey"
+                        android:textSize="16sp" />
+
+                    <Button
+                        android:id="@+id/btn_send"
+                        android:layout_width="250dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/popup_bg"
+                        android:gravity="center"
+                        android:text="@string/send"
+                        android:textColor="@color/white"
+                        app:backgroundTint="@color/tint_color" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:layout_marginTop="20dp"
+                        android:gravity="center"
+                        android:text="@string/direct_chat_instructions"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/text_color"
+                        android:textSize="16sp"
+                        tools:ignore="RtlCompat" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>

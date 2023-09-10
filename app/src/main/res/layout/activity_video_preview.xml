@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/banner_container">
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:indeterminateTint="@color/white" />
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/backBtn"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/ic_circle_btn"
+            android:padding="7dp"
+            android:src="@drawable/ic_back"
+            app:tint="@color/tint_color" />
+
+        <com.nambimobile.widgets.efab.ExpandableFabLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.nambimobile.widgets.efab.Overlay
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <com.nambimobile.widgets.efab.ExpandableFab
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_gravity="bottom|end"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="50dp"
+                app:efab_color="@color/tint_color"
+                app:efab_fabOptionSize="custom"
+                app:efab_firstFabOptionMarginPx="135"
+                app:efab_icon="@drawable/ic_plus"
+                app:efab_size="custom"
+                app:efab_successiveFabOptionMarginPx="145"
+                app:fabCustomSize="56dp"
+                app:maxImageSize="24dp" />
+
+            <com.nambimobile.widgets.efab.FabOption
+                android:id="@+id/downloadBtn"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                app:fabCustomSize="45dp"
+                app:fab_color="@color/tint_color"
+                app:fab_icon="@drawable/ic_saved1"
+                app:label_text="@string/save"
+                app:label_textSize="18sp"
+                app:maxImageSize="20dp" />
+
+            <com.nambimobile.widgets.efab.FabOption
+                android:id="@+id/shareBtn"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                app:fabCustomSize="45dp"
+                app:fab_color="@color/tint_color"
+                app:fab_icon="@drawable/ic_share"
+                app:label_text="@string/share"
+                app:label_textSize="18sp"
+                app:maxImageSize="20dp" />
+
+            <com.nambimobile.widgets.efab.FabOption
+                android:id="@+id/repostBtn"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                app:fabCustomSize="45dp"
+                app:fab_color="@color/tint_color"
+                app:fab_icon="@drawable/ic_wapp"
+                app:label_text="@string/repost"
+                app:label_textSize="18sp"
+                app:maxImageSize="20dp" />
+
+        </com.nambimobile.widgets.efab.ExpandableFabLayout>
+
+    </RelativeLayout>
+
+    <include layout="@layout/banner_ad_lay" />
+
+</RelativeLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="copyright_message">Made with \u2665 by upscapesoft</string>
+
+    <string name="about">Sobre</string>
+    <string name="about_us">Sobre nosotros</string>
+    <string name="company_title">Compañía</string>
+    <string name="email_title">Correo electrónico</string>
+    <string name="version_title">Versión</string>
+    <string name="contact">Contacto</string>
+
+    <string name="share_via">Compartir via…</string>
+    <string name="premium_feature_message">Acceso ilimitado sin anuncios</string>
+
+    <string name="photos">Fotos</string>
+    <string name="videos">Vídeos</string>
+
+    <string name="share">Cuota</string>
+    <string name="repost">volver a publicar</string>
+    <string name="saved_success_message">Estado guardado correctamente</string>
+    <string name="confirm_message">Confirmar eliminación....</string>
+    <string name="del_status_message">¿Estás seguro de que quieres eliminar este estado?</string>
+    <string name="status_not_available">Sin Estado</string>
+    <string name="select_all">Seleccionar todo</string>
+    <string name="save">Ahorrar</string>
+    <string name="delete">Borrar</string>
+    <string name="language">Idioma</string>
+    <string name="premium">De primera calidad</string>
+    <string name="remove_ads">Quitar anuncios</string>
+    <string name="send">enviar</string>
+    <string name="how_to_use">Cómo utilizar</string>
+    <string name="saved_status">Estado guardado</string>
+    <string name="navigation_drawer_open">Abrir cajón de navegación</string>
+    <string name="navigation_drawer_close">Cerrar cajón de navegación</string>
+
+    <string name="direct_chat">Chat directo</string>
+    <string name="mobile_number">Número de teléfono móvil</string>
+    <string name="enter_message">Ingresar mensaje</string>
+    <string name="direct_chat_instructions"><b>¿Cómo?</b>\n 1. Seleccione el código de país\n 2. Ingrese el número de celular\n 3. Ingrese el mensaje\n 4. Haga clic en el botón enviar</string>
+    <string name="wa_business">WA Negocios</string>
+
+    <string name="saved_s">¡Guardado exitosamente!</string>
+    <string name="save_s_long">Guardado en el directorio /Imágenes.</string>
+    <string name="error">Error</string>
+    <string name="error_long">Ocurrió un error al guardar, ¡inténtalo de nuevo!</string>
+    <string name="error_long_delete">Ocurrió un error al eliminar, ¡inténtalo de nuevo!</string>
+    <string name="deleted_s">¡Borrado exitosamente!</string>
+    <string name="delete_s_long">Eliminado del directorio /Imágenes</string>
+
+    <string name="toast_no_permissions">¡Esta aplicación no puede funcionar sin permisos de almacenamiento!</string>
+    <string name="storage_access_required">¡Se requiere acceso al almacenamiento!</string>
+    <string name="allow">Permitir</string>
+    <string name="cancel">Cancelar</string>
+    <string name="alert_long">Para poder usar esta aplicación, necesitamos obtener tus permisos de acceso al almacenamiento para acceder a las publicaciones de estado.\nTodos los archivos se almacenarán localmente y NO se cargarán ni compartirán con nadie más.</string>
+
+    <string name="step_1">Paso 1</string>
+    <string name="first_step">Haga clic para abrir el botón Whatsapp o WA Business.</string>
+    <string name="step_2">Paso 2</string>
+    <string name="second_step">Primero debe ver el estado de Whatsapp o WA Business.</string>
+    <string name="step_3">Paso 3</string>
+    <string name="third_step">Una vez que haya visto el estado en Whatsapp o WA Business, abra esta aplicación. Su estado visto estará aquí en esta aplicación y desde aquí puede descargar y compartir.</string>
+
+</resources>
